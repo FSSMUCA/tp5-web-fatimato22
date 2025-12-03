@@ -1,14 +1,7 @@
 function verifierMotPasse(mdp){
-    c=0 ;
-   let t =Text.length;
-   if(t>=8){
-      c++;
-   }
-   if(mdp.includes("@")){
-    c++;
-   }
-   if(c==0){
-    return false;
+   let t =mdp.length;
+   if(t>=8 && mdp.includes("@")){
+     return false;
    }
    else{
     return true;
