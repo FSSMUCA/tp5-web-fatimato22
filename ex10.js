@@ -9,10 +9,10 @@ function sommeRecursive(n){
     if(n==0){
         return 0;
     }
-    else if(n==1){
-        return 1;
-    }
-    else{
+    else {
         return n + sommeRecursive(n-1);
     }
 }
+let t=Number(prompt("saisir un nombre"));
+ let r=factorielle(t);
+ alert(r);
