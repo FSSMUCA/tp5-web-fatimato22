@@ -9,5 +9,5 @@ for(i=1;i<51;i++){
       si+=i;
     }
 }
-alert("la somme des nombre pair est : " +sp);
-alert("la somme des nombre impair est : " +si);
+console.log("la somme des nombre pair est : " +sp);
+console.log("la somme des nombre impair est : " +si);
